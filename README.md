@@ -6,7 +6,7 @@
 ```
 npm i
 
-npm run in
+npm run i
 
 cd packages/todo
 npm run dev
