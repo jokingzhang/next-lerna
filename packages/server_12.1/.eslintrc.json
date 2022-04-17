@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["eslint-config-airbnb", "next/core-web-vitals", "prettier"],
+  "rules": {
+    "react/jsx-props-no-spreading": 0,
+    "react/function-component-definition": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-console": 0,
+    "import/no-import-module-exports": 0,
+    "import/extensions": 0,
+    "no-html-link-for-pages": 0
+  }
+}

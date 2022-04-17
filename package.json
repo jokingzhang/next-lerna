@@ -1,0 +1,13 @@
+{
+  "name": "next-lerna",
+  "private": true,
+  "author": "jokingzhang <496691544@qq.com>",
+  "scripts": {
+    "i": "lerna bootstrap -- --unsafe-perm --legacy-peer-deps",
+    "u": "lerna clean",
+    "ip": "lerna bootstrap --ci -- --production --legacy-peer-deps --unsafe-perm"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}

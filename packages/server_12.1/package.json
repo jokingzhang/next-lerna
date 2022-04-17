@@ -1,0 +1,51 @@
+{
+  "name": "@shared/server_12.1",
+  "private": true,
+  "version": "1.0.0",
+  "description": "a koa server",
+  "author": "joking_zhang <496691544@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "directories": {
+    "modules": "modules",
+    "common": "common",
+    "test": "__tests__"
+  },
+  "files": [
+    "modules",
+    "common"
+  ],
+  "scripts": {
+    "precommit": "lint-staged -c .lintstagedrc.json",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@koa/router": "10.0.0",
+    "compression": "1.7.4",
+    "got": "11.8.2",
+    "koa": "2.13.0",
+    "koa-connect": "^2.1.0",
+    "next": "12.1.4",
+    "http-graceful-shutdown": "3.1.5"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "19.0.2",
+    "eslint-config-next": "12.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "lint-staged": "^12.1.0",
+    "ts-node": "^10.4.0",
+    "typescript": "4.5.3",
+    "@types/koa": "^2.13.2",
+    "@types/node": "16.11.12",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "@typescript-eslint/parser": "5.4.0",
+    "@types/compression": "^1.7.2",
+    "@types/koa-router": "^7.4.4"
+  }
+}
